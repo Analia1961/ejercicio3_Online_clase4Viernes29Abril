@@ -19,8 +19,8 @@ btnEnviar.addEventListener("click", () => {
   let altura: number = Number(dato1.value);
 
   if (altura >= 130) {
-    console.log("¡Bienvenido! Usted puede subir al juego");
+    console.log("¡Bienvenido! Usted puede subir a PREDATOR");
   } else {
-    console.log("¡No puede subir al juego! Debe medir 130 cm o más ");
+    console.log("¡No puede subir a PREDATOR! Debe medir 130 cm o más ");
   }
 });
